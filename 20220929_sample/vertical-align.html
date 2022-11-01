@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      background: #aaa;
+      font-size: 0;
+    }
+
+    /* vertical-align 可以讓圖片、inline-block 或 文字 垂直排列，但是對 block 是沒有作用的 */
+    img {
+      font-size: 1;
+      vertical-align: middle;
+    }
+
+    /*
+    div {
+      background: #aaa;
+      overflow: hidden;
+    }
+
+    img {
+      float: left;
+    } */
+
+    /* div {
+      display: flex;
+      background: #aaa;
+    } */
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="https://picsum.photos/100/100/?random=10">
+    <img src="https://picsum.photos/100/50/?random=10">
+    <img src="https://picsum.photos/100/80/?random=10">
+  </div>
+</body>
+
+</html>
